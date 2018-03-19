@@ -1,0 +1,39 @@
+page-login {
+
+    .login-slider {
+        height: 30%;
+        overflow: hidden;
+        background-color: #0162b2;
+    }
+
+    .login-texto {
+        color: #0063b1;
+        text-align: center;
+    }
+
+    .item-input {
+        margin: 0 auto;
+        width: 80%;
+        padding: 10px 0;
+    }
+
+    .button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .botao-entrar{
+        margin-top: 20px;
+        background-color: #0162b2;
+        width: 170px;
+    }
+
+    .botao-cadastro {
+        background-color: #4f73a5;
+        margin-bottom: 20px;
+    }
+
+    .login-content {
+        min-height: 100%;
+    }
+}
