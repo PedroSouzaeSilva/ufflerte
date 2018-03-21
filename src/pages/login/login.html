@@ -1,0 +1,52 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+</ion-header>
+
+
+<ion-content class = "login-content">
+  
+  <div class = "login-slider">
+    <ion-slides loop = "true" autoplay = "3000" speed = "500">
+      <ion-slide>
+        <h1>Slide 1</h1>
+      </ion-slide>
+      <ion-slide>
+        <h1>Slide 2</h1>
+      </ion-slide>
+      <ion-slide>
+        <h1>Slide 3</h1>
+      </ion-slide>
+    </ion-slides>
+  </div>
+  
+  <div class = "login-rest">
+    <ion-item>
+      <ion-label color="primary" floating>E-mail</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary" floating>Senha</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+
+    <div>
+      <button ion-button class = "botao-entrar">Entrar</button>
+    </div>
+  
+    <div class = "login-texto"><p>ou</p></div>
+    
+    <div>
+      <button ion-button class = "botao-cadastro">Cadastre-se com Facebook</button>
+    </div>
+    
+    <div>
+        <button ion-button clear>Esqueceu sua senha?</button>
+    </div>
+  </div>
+</ion-content>
