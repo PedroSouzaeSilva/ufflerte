@@ -1,0 +1,148 @@
+page-meu-perfil {
+    .myprofile-content{
+        background-color: rgb(229, 229, 229);
+        position: relative;
+     }
+     .container
+     {
+     width: 170%;
+     height: 103%;
+     border-radius: 50%;
+     margin-top: -100px;
+     margin-left: -36%;
+     background: #ffffff;
+     position: absolute;
+     border-style: solid;
+     border-color: rgb(198, 198, 198);
+    
+     }
+     .header-app{
+     height:12%;
+     background: transparent;
+     position: relative;
+     }
+     .developer{
+     width: 39%;
+     margin: 0 auto;
+     position: relative;
+     }
+     .developer h2{
+         margin-top: 150%;
+         text-align: center;
+         font-size: 95%;
+     }
+     .developer img{
+         margin-top: -9%;
+     }
+     #chat-icon{
+         float: left;
+         margin-top:5px;
+         margin-left: 5px;
+         background: transparent;
+         height: 22%;
+         width: 22%;
+     }
+     #logo-home-icon{
+        
+         background: transparent;
+         margin: 0 auto;
+         position: absolute;
+         top: 10px;
+         left: 0;
+         bottom: 0;
+         right: 0;
+         height: 18%;
+         width: 18%;   
+     }
+     #meu-perfil-icon{
+         float: right;
+         margin-top:10px;
+         margin-right: 10px;
+         background: transparent;
+         height: 16%;
+         width: 16%;
+     }
+     .my-image{
+         height: 175px;
+         width: 100%;
+         position: relative;
+     }
+ 
+     .my-image img{
+         border-radius: 50%;
+         height: 175px;
+         width: 175px;
+         margin: 0 auto;
+         position: absolute;
+         top: 10px;
+         left: 0;
+         bottom: 0;
+         right: 0;
+     }
+     .description h1{
+         text-align: center;
+         position:relative;
+     }
+     .description h2{
+         text-align: center;
+         position:relative;
+         font-size: 15px;
+     }
+     .options{
+     width: 100%;
+     height: 160px;
+     position: absolute;
+     }
+     .edit-icon{
+         margin: 0 auto;
+         top: 10px;
+         left: 15%;
+         bottom: 0;
+         right: 0;
+         margin-left: 5px;
+         height: 35%;
+         width: 21%;
+         position: absolute;
+         background: transparent;
+     }
+     .edit-icon img{
+         box-shadow:  9px 7px 5px rgba(50, 50, 50, 0.77);
+     }
+     .container-settings::after {
+         transform: rotate(180deg); 
+         width: 1px;
+         height: 100px;
+         border-left: 2px solid;
+         box-sizing: border-box;
+         position: absolute;
+     }
+     
+     #settings-icon{
+         
+         margin: 0 auto;
+         position: absolute;
+         background: transparent;
+         top: 10px;
+         left: 50%;
+         bottom: 0;
+         right: 0;    
+         height: 35%;
+         width: 22%;
+     } 
+     #settings-icon img{
+         box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+     }
+     .box {
+         display: inline-block;
+         width: 100px; 
+         height: 200px;
+         margin: 10px 20px;
+        
+     }
+     .options h1{
+         font-size: 11px;
+         text-align: center;
+         margin-left:26px;
+         margin-top: 60px;
+     }
+}
