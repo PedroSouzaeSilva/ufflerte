@@ -1,5 +1,5 @@
 {
-  "name": "tinderuff",
+  "name": "ufflerte",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "http://ionicframework.com/",
@@ -12,6 +12,7 @@
     "ionic:serve": "ionic-app-scripts serve"
   },
   "dependencies": {
+    "@angular/animations": "5.2.9",
     "@angular/common": "5.2.9",
     "@angular/compiler": "5.2.9",
     "@angular/compiler-cli": "5.2.9",

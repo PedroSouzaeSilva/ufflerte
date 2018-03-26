@@ -13,9 +13,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   selector: 'page-login',
   templateUrl: 'login.html',
 })
+
+ 
 export class LoginPage {
 
-  tabBarElement: any;
   splash = true;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
@@ -23,14 +24,13 @@ export class LoginPage {
   }
 
   ionViewDidLoad() {
-    console.log(document.querySelector('.tabbar'));
-    this.tabBarElement.style.display='none';
+    console.log('ionViewDidLoad LoginPage');
     setTimeout(() => {
        this.splash=false;
-       this.tabBarElement.style.display='flex';
    }, 4000);
   }
 
+    
 }
 
 
