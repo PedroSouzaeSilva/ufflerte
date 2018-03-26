@@ -15,11 +15,25 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class LoginPage {
 
+  tabBarElement: any;
+  splash = true;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.tabBarElement = document.querySelector('.tabbar');
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad LoginPage');
+    console.log(document.querySelector('.tabbar'));
+    this.tabBarElement.style.display='none';
+    setTimeout(() => {
+       this.splash=false;
+       this.tabBarElement.style.display='flex';
+   }, 4000);
   }
 
 }
+
+
+
+
+
