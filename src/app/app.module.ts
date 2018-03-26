@@ -11,6 +11,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { LoginPageModule } from '../pages/login/login.module';
+import { MeuPerfilPageModule } from '../pages/meu-perfil/meu-perfil.module';
 
 @NgModule({
   declarations: [
@@ -18,11 +19,12 @@ import { LoginPageModule } from '../pages/login/login.module';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
   ],
   imports: [
     BrowserModule,
     LoginPageModule,
+    MeuPerfilPageModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
