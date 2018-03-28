@@ -68,56 +68,71 @@
       #logoLeft{
         display: block;
         margin: 0 auto;
-
+        position: absolute;
         width: 35%;
         height: auto;
-        animation: animation1 3100ms linear infinite both;
+        animation: animation1 3100ms linear both;
         animation-delay: 1s;
       }
+        
+      
       #logoRight{
         display: block;
         margin: 0 auto;
+        position: absolute;
         width: 30%;
         height: auto;
-        animation: animation2 3100ms linear infinite both;
+        animation: animation2 3100ms linear both;
         animation-delay: 1s;
+
       }
-
-      @keyframes pulse {
-        0% {
-          opacity:0;
-        }
-        100% {
-          opacity:1;
-        }
+      #logoLeft2{
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        width: 25%;
+        height: auto;
+        animation: animation1 3100ms linear both;
+        animation-delay: 4s;
       }
+      #logoRight2{
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        width: 25%;
+        height: auto;
+        animation: animation2 3100ms linear both;
+        animation-delay: 4s;
 
-
-
-  
+      }
              
       @keyframes animation1 { 
-        0% { transform: translateX(400px) }
-        25% { transform: translateX(350px) }
-        35% { transform: translateX(300px) }
-        45% { transform: translateX(250px) }
-        55% { transform: translateX(200px) }
-        65% { transform: translateX(175px) }
-        75% { transform: translateX(150px) }
-        85% { transform: translateX(150px) }
-        95% { transform: translateX(133px) } 
-        100% { transform: translateX(133px) }
+        0% { transform: translateX(253px);opacity: 1 }
+        5% { transform: translateX(233px);opacity: 1}
+        10% { transform: translateX(213px);opacity: 1 }
+        15% { transform: translateX(193px);opacity: 1}
+        20% { transform: translateX(173px);opacity: 1 }
+        25% { transform: translateX(153px);opacity: 1 }
+        30% { transform: translateX(133px);opacity: 1 }
+        35% { transform: translateX(113px);opacity: 1 }
+        40% { transform: translateX(93px);opacity: 1 } 
+        45% { transform: translateX(73px);opacity: 1 }
+        50% { transform: translateX(53px);opacity: 1 }      
+        100% { transform: translateX(0px);opacity: 0 }
       }
 
       @keyframes animation2 { 
-        0% { transform: translateX(-400px) }
-        25% { transform: translateX(-350px) }
-        35% { transform: translateX(-300px) }
-        45% { transform: translateX(-250px) }
-        55% { transform: translateX(-200px) }
-        65% { transform: translateX(-175px) }
-        75% { transform: translateX(-150px) }
-        85% { transform: translateX(-150px) }
-        95% { transform: translateX(-133px) } 
-        100% { transform: translateX(-133px) }
+        0% { transform: translateX(-253px);opacity: 1 }
+        5% { transform: translateX(-233px);opacity: 1}
+        10% { transform: translateX(-213px);opacity: 1 }
+        15% { transform: translateX(-193px);opacity: 1}
+        20% { transform: translateX(-173px);opacity: 1 }
+        25% { transform: translateX(-153px);opacity: 1 }
+        30% { transform: translateX(-133px);opacity: 1 }
+        35% { transform: translateX(-113px);opacity: 1 }
+        40% { transform: translateX(-93px);opacity: 1 } 
+        45% { transform: translateX(-73px);opacity: 1 }
+        50% { transform: translateX(-53px);opacity: 1 }
+        100% { transform: translateX( 0px);opacity: 0 }
       }
+     
