@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { MeuPerfilPage } from '../meu-perfil/meu-perfil';
-import { MeuPerfilPageModule } from '../meu-perfil/meu-perfil.module';
+import { TabsPage } from '../tabs/tabs';
+import { HomePage } from '../home/home';
 
 /**
  * Generated class for the LoginPage page.
@@ -28,11 +28,16 @@ export class LoginPage {
     console.log('ionViewDidLoad LoginPage');
     setTimeout(() => {
        this.splash=false;
-   }, 7000);
+   }, 3900);
   }
-  nextPage(){
-    this.navCtrl.push(MeuPerfilPage);
+
+  loginConfirmed() {
+    this.navCtrl.setRoot(TabsPage);
   }
 
     
 }
+
+
+
+
