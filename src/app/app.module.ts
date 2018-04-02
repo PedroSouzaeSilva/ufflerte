@@ -12,6 +12,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { LoginPageModule } from '../pages/login/login.module';
 import { MeuPerfilPageModule } from '../pages/meu-perfil/meu-perfil.module';
+import { MeuPerfilPage } from '../pages/meu-perfil/meu-perfil';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { MeuPerfilPageModule } from '../pages/meu-perfil/meu-perfil.module';
     ContactPage,
     HomePage,
     TabsPage,
+    
   ],
   imports: [
     BrowserModule,

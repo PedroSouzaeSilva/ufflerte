@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { MeuPerfilPage } from '../meu-perfil/meu-perfil';
+import { MeuPerfilPageModule } from '../meu-perfil/meu-perfil.module';
 
 /**
  * Generated class for the LoginPage page.
@@ -27,6 +29,9 @@ export class LoginPage {
     setTimeout(() => {
        this.splash=false;
    }, 7000);
+  }
+  nextPage(){
+    this.navCtrl.push(MeuPerfilPage);
   }
 
     
