@@ -6,8 +6,11 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
-
+  
+  //userFoto = "assets/imgs/foto_mona.png";
+  
   constructor(public navCtrl: NavController) {
+
 
   }
 

@@ -1,3 +1,36 @@
 page-home {
 
+    //------------------------ 1 - Informações de usuário sugerido
+
+    .usuario-sugestao {
+
+        .item-md.item-block .item-inner {
+            border-bottom: none;
+        }
+    }
+    
+
+
+    //------------------------ 2 - Botões de decisão
+    .choice-button {
+        min-height: 75px;
+        float: left;
+    }
+
+    .choice-button:nth-child(2) {
+        margin-left: calc(50% - 133.75px);
+    }
+
+    .choice-button:last-child {
+        float: right;
+    }
+
+    .choice-button-div {
+        display: block;
+    }
+    .choice-button-div::after, .choice-button-div::before {
+        content: "";
+        display: table;
+        clear: both;
+    }
 }

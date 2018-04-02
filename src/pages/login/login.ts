@@ -20,7 +20,6 @@ export class LoginPage {
   splash = true;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.tabBarElement = document.querySelector('.tabbar');
   }
 
   ionViewDidLoad() {
@@ -32,7 +31,6 @@ export class LoginPage {
 
     
 }
-
 
 
 
